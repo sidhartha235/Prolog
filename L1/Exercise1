@@ -1,0 +1,71 @@
+Sidhartha Ananthula
+21MCME08
+18.07.2024 - 19.07.2024
+
+Exercise 1.1
+
+Atoms: vINCENT, variable23, big_kahuna_burger, ‘big kahuna burger’, ‘Jules’, ‘_Jules’
+
+Variables: Fotmassage, Variable2000, _Jules
+
+Neither: big kahuna burger
+
+
+Exercise 1.2
+
+Atoms: ‘loves(Vincent, mia)’
+
+Variables: 
+
+Complex Terms: loves(Vincent, mia) - [loves/2], boxer(Butch) - [boxer/1], and(big(burger), kahuna(burger)) - [and/2], and(big(X), kahuna(X)) - [and/2]
+
+Not terms: Butch(boxer), _and(big(X), kahuna(X)), (Butch kills Vincent), kills(Butch Vincent), kills(Butch, Vincent
+
+
+Exercise 1.3
+
+Facts = 3; Rules = 4; Clauses = 7; Predicates = 8.
+
+{Head} :- {Body/goals}
+
+
+Exercise 1.4
+
+killer(butch).
+married(mia, marcellus).
+dead(zed).
+kills(marcellus, X) :- footMassage(X, mia).
+loves(mia, X) :- goodDancer(X).
+eats(jules, X) :- nutritious(X); tasty(X).
+
+
+Exercise 1.5
+
+?- wizard(ron
+error parsing query: error(syntax_error(', or ) expected'),[line(1),column(10),token_not_found])
+
+?- witch(ron).
+uncaught exception: error(existence_error(procedure,witch/1),top_level/0)
+parsing query: witch(ron) ok!
+
+?- wizard(hermione).
+false
+parsing query: wizard(hermione) ok!
+
+?- witch(hermione).
+uncaught exception: error(existence_error(procedure,witch/1),top_level/0)
+parsing query: witch(hermione) ok!
+
+?- wizard(harry).
+true
+parsing query: wizard(harry) ok!
+
+?- wizard(Y).
+false
+Y = harry
+Y = ron
+parsing query: wizard(Y) ok!
+
+?- witch(Y).
+uncaught exception: error(existence_error(procedure,witch/1),top_level/0)
+parsing query: witch(Y) ok!

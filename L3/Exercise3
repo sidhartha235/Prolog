@@ -1,0 +1,11 @@
+Sidhartha Ananthula
+21MCME08
+07.08.2024
+
+Exercise 3.4
+
+We cannot formulate in the given way..
+Because it will keep on searching the KB leading to an infinite loop.
+
+In Declarative sense, unification is used..
+In Procedural sense, passing of values is used..
